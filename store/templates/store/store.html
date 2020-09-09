@@ -1,8 +1,12 @@
 {% extends 'store/main.html' %}
 {% load static  %}
 {% block content %}
-<br><br><br>
-
+<br><br>
+     <section id="services">
+         <header class="section-header wow fadeInUp">
+          <h3>Our Products</h3>
+          <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus, ad pro quaestio laboramus. Ei ubique vivendum pro. At ius nisl accusam lorenta zanos paradigno tridexa panatarel.</p>
+        </header>
        <div class="row">
 
            {% for product in products %}
@@ -21,5 +25,6 @@
            </div>
            {% endfor %}
        </div>
+     </section>
 
 {% endblock content %}
